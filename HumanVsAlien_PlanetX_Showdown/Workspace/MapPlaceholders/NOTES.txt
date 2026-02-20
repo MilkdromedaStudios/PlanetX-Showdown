@@ -1,0 +1,8 @@
+Map is now auto-generated at runtime by ServerScriptService/Services/MapBuilderService.lua.
+
+Optional custom replacements in Studio:
+- Lobby Safe Zone + role selection kiosks + shop terminals
+- Earth Research Base spawn + rocket facility + EMP consoles
+- PlanetX Alien spawn + Death Ray charging structure
+- Fuel resource nodes on both maps
+- Command panels for President and Overmind
