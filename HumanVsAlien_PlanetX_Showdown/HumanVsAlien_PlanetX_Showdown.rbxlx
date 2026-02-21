@@ -1,0 +1,3567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roblox version="4">
+  <External>null</External>
+  <External>nil</External>
+  <Item class="DataModel" referent="RBX1">
+    <Properties>
+      <bool name="Archivable">true</bool>
+      <string name="Name">HumanVsAlien_PlanetX_Showdown</string>
+    <Item class="Workspace" referent="RBX2">
+      <Properties>
+        <bool name="Archivable">true</bool>
+        <string name="Name">Workspace</string>
+      <Item class="Folder" referent="RBX3">
+        <Properties>
+          <bool name="Archivable">true</bool>
+          <string name="Name">MapPlaceholders</string>
+        <Item class="StringValue" referent="RBX4">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">NOTES</string>
+            <string name="Value">Map is now auto-generated at runtime by ServerScriptService/Services/MapBuilderService.lua.
+
+Optional custom replacements in Studio:
+- Lobby Safe Zone + role selection kiosks + shop terminals
+- Earth Research Base spawn + rocket facility + EMP consoles
+- PlanetX Alien spawn + Death Ray charging structure
+- Fuel resource nodes on both maps
+- Command panels for President and Overmind
+</string>
+          </Properties>
+        </Item>
+        <Item class="Folder" referent="RBX5">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">HyperwaveDesignNodes</string>
+          <Item class="StringValue" referent="RBX6">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_001</string>
+              <string name="Value">Hyperwave staging node 001: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX7">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_002</string>
+              <string name="Value">Hyperwave staging node 002: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX8">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_003</string>
+              <string name="Value">Hyperwave staging node 003: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX9">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_004</string>
+              <string name="Value">Hyperwave staging node 004: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX10">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_005</string>
+              <string name="Value">Hyperwave staging node 005: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX11">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_006</string>
+              <string name="Value">Hyperwave staging node 006: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX12">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_007</string>
+              <string name="Value">Hyperwave staging node 007: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX13">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_008</string>
+              <string name="Value">Hyperwave staging node 008: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX14">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_009</string>
+              <string name="Value">Hyperwave staging node 009: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX15">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_010</string>
+              <string name="Value">Hyperwave staging node 010: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX16">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_011</string>
+              <string name="Value">Hyperwave staging node 011: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX17">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_012</string>
+              <string name="Value">Hyperwave staging node 012: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX18">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_013</string>
+              <string name="Value">Hyperwave staging node 013: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX19">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_014</string>
+              <string name="Value">Hyperwave staging node 014: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX20">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_015</string>
+              <string name="Value">Hyperwave staging node 015: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX21">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_016</string>
+              <string name="Value">Hyperwave staging node 016: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX22">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_017</string>
+              <string name="Value">Hyperwave staging node 017: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX23">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_018</string>
+              <string name="Value">Hyperwave staging node 018: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX24">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_019</string>
+              <string name="Value">Hyperwave staging node 019: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX25">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_020</string>
+              <string name="Value">Hyperwave staging node 020: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX26">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_021</string>
+              <string name="Value">Hyperwave staging node 021: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX27">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_022</string>
+              <string name="Value">Hyperwave staging node 022: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX28">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_023</string>
+              <string name="Value">Hyperwave staging node 023: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX29">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_024</string>
+              <string name="Value">Hyperwave staging node 024: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX30">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_025</string>
+              <string name="Value">Hyperwave staging node 025: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX31">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_026</string>
+              <string name="Value">Hyperwave staging node 026: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX32">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_027</string>
+              <string name="Value">Hyperwave staging node 027: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX33">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_028</string>
+              <string name="Value">Hyperwave staging node 028: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX34">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_029</string>
+              <string name="Value">Hyperwave staging node 029: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX35">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_030</string>
+              <string name="Value">Hyperwave staging node 030: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX36">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_031</string>
+              <string name="Value">Hyperwave staging node 031: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX37">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_032</string>
+              <string name="Value">Hyperwave staging node 032: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX38">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_033</string>
+              <string name="Value">Hyperwave staging node 033: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX39">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_034</string>
+              <string name="Value">Hyperwave staging node 034: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX40">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_035</string>
+              <string name="Value">Hyperwave staging node 035: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX41">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_036</string>
+              <string name="Value">Hyperwave staging node 036: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX42">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_037</string>
+              <string name="Value">Hyperwave staging node 037: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX43">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_038</string>
+              <string name="Value">Hyperwave staging node 038: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX44">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_039</string>
+              <string name="Value">Hyperwave staging node 039: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX45">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_040</string>
+              <string name="Value">Hyperwave staging node 040: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX46">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_041</string>
+              <string name="Value">Hyperwave staging node 041: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX47">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_042</string>
+              <string name="Value">Hyperwave staging node 042: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX48">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_043</string>
+              <string name="Value">Hyperwave staging node 043: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX49">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_044</string>
+              <string name="Value">Hyperwave staging node 044: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX50">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_045</string>
+              <string name="Value">Hyperwave staging node 045: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX51">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_046</string>
+              <string name="Value">Hyperwave staging node 046: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX52">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_047</string>
+              <string name="Value">Hyperwave staging node 047: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX53">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_048</string>
+              <string name="Value">Hyperwave staging node 048: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX54">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_049</string>
+              <string name="Value">Hyperwave staging node 049: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX55">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_050</string>
+              <string name="Value">Hyperwave staging node 050: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX56">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_051</string>
+              <string name="Value">Hyperwave staging node 051: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX57">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_052</string>
+              <string name="Value">Hyperwave staging node 052: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX58">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_053</string>
+              <string name="Value">Hyperwave staging node 053: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX59">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_054</string>
+              <string name="Value">Hyperwave staging node 054: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX60">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_055</string>
+              <string name="Value">Hyperwave staging node 055: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX61">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_056</string>
+              <string name="Value">Hyperwave staging node 056: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX62">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_057</string>
+              <string name="Value">Hyperwave staging node 057: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX63">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_058</string>
+              <string name="Value">Hyperwave staging node 058: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX64">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_059</string>
+              <string name="Value">Hyperwave staging node 059: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX65">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_060</string>
+              <string name="Value">Hyperwave staging node 060: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX66">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_061</string>
+              <string name="Value">Hyperwave staging node 061: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX67">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_062</string>
+              <string name="Value">Hyperwave staging node 062: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX68">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_063</string>
+              <string name="Value">Hyperwave staging node 063: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX69">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_064</string>
+              <string name="Value">Hyperwave staging node 064: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX70">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_065</string>
+              <string name="Value">Hyperwave staging node 065: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX71">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_066</string>
+              <string name="Value">Hyperwave staging node 066: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX72">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_067</string>
+              <string name="Value">Hyperwave staging node 067: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX73">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_068</string>
+              <string name="Value">Hyperwave staging node 068: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX74">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_069</string>
+              <string name="Value">Hyperwave staging node 069: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX75">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_070</string>
+              <string name="Value">Hyperwave staging node 070: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX76">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_071</string>
+              <string name="Value">Hyperwave staging node 071: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX77">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_072</string>
+              <string name="Value">Hyperwave staging node 072: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX78">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_073</string>
+              <string name="Value">Hyperwave staging node 073: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX79">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_074</string>
+              <string name="Value">Hyperwave staging node 074: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX80">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_075</string>
+              <string name="Value">Hyperwave staging node 075: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX81">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_076</string>
+              <string name="Value">Hyperwave staging node 076: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX82">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_077</string>
+              <string name="Value">Hyperwave staging node 077: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX83">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_078</string>
+              <string name="Value">Hyperwave staging node 078: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX84">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_079</string>
+              <string name="Value">Hyperwave staging node 079: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX85">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_080</string>
+              <string name="Value">Hyperwave staging node 080: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX86">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_081</string>
+              <string name="Value">Hyperwave staging node 081: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX87">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_082</string>
+              <string name="Value">Hyperwave staging node 082: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX88">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_083</string>
+              <string name="Value">Hyperwave staging node 083: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX89">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_084</string>
+              <string name="Value">Hyperwave staging node 084: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX90">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_085</string>
+              <string name="Value">Hyperwave staging node 085: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX91">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_086</string>
+              <string name="Value">Hyperwave staging node 086: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX92">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_087</string>
+              <string name="Value">Hyperwave staging node 087: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX93">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_088</string>
+              <string name="Value">Hyperwave staging node 088: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX94">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_089</string>
+              <string name="Value">Hyperwave staging node 089: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX95">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_090</string>
+              <string name="Value">Hyperwave staging node 090: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX96">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_091</string>
+              <string name="Value">Hyperwave staging node 091: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX97">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_092</string>
+              <string name="Value">Hyperwave staging node 092: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX98">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_093</string>
+              <string name="Value">Hyperwave staging node 093: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX99">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_094</string>
+              <string name="Value">Hyperwave staging node 094: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX100">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_095</string>
+              <string name="Value">Hyperwave staging node 095: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX101">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_096</string>
+              <string name="Value">Hyperwave staging node 096: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX102">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_097</string>
+              <string name="Value">Hyperwave staging node 097: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX103">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_098</string>
+              <string name="Value">Hyperwave staging node 098: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX104">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_099</string>
+              <string name="Value">Hyperwave staging node 099: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX105">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_100</string>
+              <string name="Value">Hyperwave staging node 100: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX106">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_101</string>
+              <string name="Value">Hyperwave staging node 101: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX107">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_102</string>
+              <string name="Value">Hyperwave staging node 102: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX108">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_103</string>
+              <string name="Value">Hyperwave staging node 103: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX109">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_104</string>
+              <string name="Value">Hyperwave staging node 104: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX110">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_105</string>
+              <string name="Value">Hyperwave staging node 105: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX111">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_106</string>
+              <string name="Value">Hyperwave staging node 106: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX112">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_107</string>
+              <string name="Value">Hyperwave staging node 107: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX113">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_108</string>
+              <string name="Value">Hyperwave staging node 108: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX114">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_109</string>
+              <string name="Value">Hyperwave staging node 109: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX115">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_110</string>
+              <string name="Value">Hyperwave staging node 110: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX116">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_111</string>
+              <string name="Value">Hyperwave staging node 111: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX117">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_112</string>
+              <string name="Value">Hyperwave staging node 112: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX118">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_113</string>
+              <string name="Value">Hyperwave staging node 113: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX119">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_114</string>
+              <string name="Value">Hyperwave staging node 114: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX120">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_115</string>
+              <string name="Value">Hyperwave staging node 115: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX121">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_116</string>
+              <string name="Value">Hyperwave staging node 116: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX122">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_117</string>
+              <string name="Value">Hyperwave staging node 117: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX123">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_118</string>
+              <string name="Value">Hyperwave staging node 118: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX124">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_119</string>
+              <string name="Value">Hyperwave staging node 119: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX125">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_120</string>
+              <string name="Value">Hyperwave staging node 120: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX126">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_121</string>
+              <string name="Value">Hyperwave staging node 121: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX127">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_122</string>
+              <string name="Value">Hyperwave staging node 122: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX128">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_123</string>
+              <string name="Value">Hyperwave staging node 123: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX129">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_124</string>
+              <string name="Value">Hyperwave staging node 124: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX130">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_125</string>
+              <string name="Value">Hyperwave staging node 125: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX131">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_126</string>
+              <string name="Value">Hyperwave staging node 126: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX132">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_127</string>
+              <string name="Value">Hyperwave staging node 127: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX133">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_128</string>
+              <string name="Value">Hyperwave staging node 128: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX134">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_129</string>
+              <string name="Value">Hyperwave staging node 129: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX135">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_130</string>
+              <string name="Value">Hyperwave staging node 130: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX136">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_131</string>
+              <string name="Value">Hyperwave staging node 131: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX137">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_132</string>
+              <string name="Value">Hyperwave staging node 132: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX138">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_133</string>
+              <string name="Value">Hyperwave staging node 133: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX139">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_134</string>
+              <string name="Value">Hyperwave staging node 134: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX140">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_135</string>
+              <string name="Value">Hyperwave staging node 135: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX141">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_136</string>
+              <string name="Value">Hyperwave staging node 136: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX142">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_137</string>
+              <string name="Value">Hyperwave staging node 137: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX143">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_138</string>
+              <string name="Value">Hyperwave staging node 138: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX144">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_139</string>
+              <string name="Value">Hyperwave staging node 139: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX145">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_140</string>
+              <string name="Value">Hyperwave staging node 140: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX146">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_141</string>
+              <string name="Value">Hyperwave staging node 141: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX147">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_142</string>
+              <string name="Value">Hyperwave staging node 142: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX148">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_143</string>
+              <string name="Value">Hyperwave staging node 143: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX149">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_144</string>
+              <string name="Value">Hyperwave staging node 144: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX150">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_145</string>
+              <string name="Value">Hyperwave staging node 145: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX151">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_146</string>
+              <string name="Value">Hyperwave staging node 146: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX152">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_147</string>
+              <string name="Value">Hyperwave staging node 147: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX153">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_148</string>
+              <string name="Value">Hyperwave staging node 148: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX154">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_149</string>
+              <string name="Value">Hyperwave staging node 149: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX155">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_150</string>
+              <string name="Value">Hyperwave staging node 150: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX156">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_151</string>
+              <string name="Value">Hyperwave staging node 151: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX157">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_152</string>
+              <string name="Value">Hyperwave staging node 152: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX158">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_153</string>
+              <string name="Value">Hyperwave staging node 153: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX159">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_154</string>
+              <string name="Value">Hyperwave staging node 154: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX160">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_155</string>
+              <string name="Value">Hyperwave staging node 155: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX161">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_156</string>
+              <string name="Value">Hyperwave staging node 156: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX162">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_157</string>
+              <string name="Value">Hyperwave staging node 157: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX163">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_158</string>
+              <string name="Value">Hyperwave staging node 158: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX164">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_159</string>
+              <string name="Value">Hyperwave staging node 159: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX165">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_160</string>
+              <string name="Value">Hyperwave staging node 160: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX166">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_161</string>
+              <string name="Value">Hyperwave staging node 161: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX167">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_162</string>
+              <string name="Value">Hyperwave staging node 162: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX168">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_163</string>
+              <string name="Value">Hyperwave staging node 163: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX169">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_164</string>
+              <string name="Value">Hyperwave staging node 164: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX170">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_165</string>
+              <string name="Value">Hyperwave staging node 165: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX171">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_166</string>
+              <string name="Value">Hyperwave staging node 166: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX172">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_167</string>
+              <string name="Value">Hyperwave staging node 167: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX173">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_168</string>
+              <string name="Value">Hyperwave staging node 168: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX174">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_169</string>
+              <string name="Value">Hyperwave staging node 169: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX175">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_170</string>
+              <string name="Value">Hyperwave staging node 170: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX176">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_171</string>
+              <string name="Value">Hyperwave staging node 171: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX177">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_172</string>
+              <string name="Value">Hyperwave staging node 172: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX178">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_173</string>
+              <string name="Value">Hyperwave staging node 173: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX179">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_174</string>
+              <string name="Value">Hyperwave staging node 174: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX180">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_175</string>
+              <string name="Value">Hyperwave staging node 175: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX181">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_176</string>
+              <string name="Value">Hyperwave staging node 176: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX182">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_177</string>
+              <string name="Value">Hyperwave staging node 177: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX183">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_178</string>
+              <string name="Value">Hyperwave staging node 178: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX184">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_179</string>
+              <string name="Value">Hyperwave staging node 179: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX185">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_180</string>
+              <string name="Value">Hyperwave staging node 180: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX186">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_181</string>
+              <string name="Value">Hyperwave staging node 181: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX187">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_182</string>
+              <string name="Value">Hyperwave staging node 182: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX188">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_183</string>
+              <string name="Value">Hyperwave staging node 183: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX189">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_184</string>
+              <string name="Value">Hyperwave staging node 184: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX190">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_185</string>
+              <string name="Value">Hyperwave staging node 185: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX191">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_186</string>
+              <string name="Value">Hyperwave staging node 186: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX192">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_187</string>
+              <string name="Value">Hyperwave staging node 187: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX193">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_188</string>
+              <string name="Value">Hyperwave staging node 188: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX194">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_189</string>
+              <string name="Value">Hyperwave staging node 189: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX195">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_190</string>
+              <string name="Value">Hyperwave staging node 190: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX196">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_191</string>
+              <string name="Value">Hyperwave staging node 191: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX197">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_192</string>
+              <string name="Value">Hyperwave staging node 192: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX198">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_193</string>
+              <string name="Value">Hyperwave staging node 193: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX199">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_194</string>
+              <string name="Value">Hyperwave staging node 194: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX200">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_195</string>
+              <string name="Value">Hyperwave staging node 195: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX201">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_196</string>
+              <string name="Value">Hyperwave staging node 196: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX202">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_197</string>
+              <string name="Value">Hyperwave staging node 197: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX203">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_198</string>
+              <string name="Value">Hyperwave staging node 198: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX204">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_199</string>
+              <string name="Value">Hyperwave staging node 199: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX205">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_200</string>
+              <string name="Value">Hyperwave staging node 200: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX206">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_201</string>
+              <string name="Value">Hyperwave staging node 201: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX207">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_202</string>
+              <string name="Value">Hyperwave staging node 202: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX208">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_203</string>
+              <string name="Value">Hyperwave staging node 203: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX209">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_204</string>
+              <string name="Value">Hyperwave staging node 204: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX210">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_205</string>
+              <string name="Value">Hyperwave staging node 205: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX211">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_206</string>
+              <string name="Value">Hyperwave staging node 206: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX212">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_207</string>
+              <string name="Value">Hyperwave staging node 207: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX213">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_208</string>
+              <string name="Value">Hyperwave staging node 208: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX214">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_209</string>
+              <string name="Value">Hyperwave staging node 209: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX215">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_210</string>
+              <string name="Value">Hyperwave staging node 210: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX216">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_211</string>
+              <string name="Value">Hyperwave staging node 211: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX217">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_212</string>
+              <string name="Value">Hyperwave staging node 212: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX218">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_213</string>
+              <string name="Value">Hyperwave staging node 213: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX219">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_214</string>
+              <string name="Value">Hyperwave staging node 214: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX220">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_215</string>
+              <string name="Value">Hyperwave staging node 215: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX221">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_216</string>
+              <string name="Value">Hyperwave staging node 216: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX222">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_217</string>
+              <string name="Value">Hyperwave staging node 217: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX223">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_218</string>
+              <string name="Value">Hyperwave staging node 218: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX224">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_219</string>
+              <string name="Value">Hyperwave staging node 219: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX225">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_220</string>
+              <string name="Value">Hyperwave staging node 220: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX226">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_221</string>
+              <string name="Value">Hyperwave staging node 221: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX227">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_222</string>
+              <string name="Value">Hyperwave staging node 222: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX228">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_223</string>
+              <string name="Value">Hyperwave staging node 223: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX229">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_224</string>
+              <string name="Value">Hyperwave staging node 224: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX230">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_225</string>
+              <string name="Value">Hyperwave staging node 225: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX231">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_226</string>
+              <string name="Value">Hyperwave staging node 226: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX232">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_227</string>
+              <string name="Value">Hyperwave staging node 227: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX233">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_228</string>
+              <string name="Value">Hyperwave staging node 228: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX234">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_229</string>
+              <string name="Value">Hyperwave staging node 229: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX235">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_230</string>
+              <string name="Value">Hyperwave staging node 230: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX236">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_231</string>
+              <string name="Value">Hyperwave staging node 231: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX237">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_232</string>
+              <string name="Value">Hyperwave staging node 232: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX238">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_233</string>
+              <string name="Value">Hyperwave staging node 233: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX239">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_234</string>
+              <string name="Value">Hyperwave staging node 234: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX240">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_235</string>
+              <string name="Value">Hyperwave staging node 235: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX241">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_236</string>
+              <string name="Value">Hyperwave staging node 236: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX242">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_237</string>
+              <string name="Value">Hyperwave staging node 237: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX243">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_238</string>
+              <string name="Value">Hyperwave staging node 238: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX244">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_239</string>
+              <string name="Value">Hyperwave staging node 239: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX245">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_240</string>
+              <string name="Value">Hyperwave staging node 240: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX246">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_241</string>
+              <string name="Value">Hyperwave staging node 241: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX247">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_242</string>
+              <string name="Value">Hyperwave staging node 242: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX248">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_243</string>
+              <string name="Value">Hyperwave staging node 243: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX249">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_244</string>
+              <string name="Value">Hyperwave staging node 244: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX250">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_245</string>
+              <string name="Value">Hyperwave staging node 245: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX251">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_246</string>
+              <string name="Value">Hyperwave staging node 246: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX252">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_247</string>
+              <string name="Value">Hyperwave staging node 247: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX253">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_248</string>
+              <string name="Value">Hyperwave staging node 248: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX254">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_249</string>
+              <string name="Value">Hyperwave staging node 249: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX255">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_250</string>
+              <string name="Value">Hyperwave staging node 250: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX256">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_251</string>
+              <string name="Value">Hyperwave staging node 251: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX257">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_252</string>
+              <string name="Value">Hyperwave staging node 252: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX258">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_253</string>
+              <string name="Value">Hyperwave staging node 253: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX259">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_254</string>
+              <string name="Value">Hyperwave staging node 254: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX260">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_255</string>
+              <string name="Value">Hyperwave staging node 255: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX261">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_256</string>
+              <string name="Value">Hyperwave staging node 256: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX262">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_257</string>
+              <string name="Value">Hyperwave staging node 257: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX263">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_258</string>
+              <string name="Value">Hyperwave staging node 258: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX264">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_259</string>
+              <string name="Value">Hyperwave staging node 259: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX265">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_260</string>
+              <string name="Value">Hyperwave staging node 260: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX266">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_261</string>
+              <string name="Value">Hyperwave staging node 261: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX267">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_262</string>
+              <string name="Value">Hyperwave staging node 262: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX268">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_263</string>
+              <string name="Value">Hyperwave staging node 263: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX269">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_264</string>
+              <string name="Value">Hyperwave staging node 264: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX270">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_265</string>
+              <string name="Value">Hyperwave staging node 265: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX271">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_266</string>
+              <string name="Value">Hyperwave staging node 266: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX272">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_267</string>
+              <string name="Value">Hyperwave staging node 267: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX273">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_268</string>
+              <string name="Value">Hyperwave staging node 268: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX274">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_269</string>
+              <string name="Value">Hyperwave staging node 269: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX275">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_270</string>
+              <string name="Value">Hyperwave staging node 270: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX276">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_271</string>
+              <string name="Value">Hyperwave staging node 271: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX277">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_272</string>
+              <string name="Value">Hyperwave staging node 272: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX278">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_273</string>
+              <string name="Value">Hyperwave staging node 273: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX279">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_274</string>
+              <string name="Value">Hyperwave staging node 274: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX280">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_275</string>
+              <string name="Value">Hyperwave staging node 275: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX281">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_276</string>
+              <string name="Value">Hyperwave staging node 276: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX282">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_277</string>
+              <string name="Value">Hyperwave staging node 277: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX283">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_278</string>
+              <string name="Value">Hyperwave staging node 278: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX284">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_279</string>
+              <string name="Value">Hyperwave staging node 279: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX285">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_280</string>
+              <string name="Value">Hyperwave staging node 280: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX286">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_281</string>
+              <string name="Value">Hyperwave staging node 281: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX287">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_282</string>
+              <string name="Value">Hyperwave staging node 282: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX288">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_283</string>
+              <string name="Value">Hyperwave staging node 283: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX289">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_284</string>
+              <string name="Value">Hyperwave staging node 284: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX290">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_285</string>
+              <string name="Value">Hyperwave staging node 285: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX291">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_286</string>
+              <string name="Value">Hyperwave staging node 286: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX292">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_287</string>
+              <string name="Value">Hyperwave staging node 287: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX293">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_288</string>
+              <string name="Value">Hyperwave staging node 288: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX294">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_289</string>
+              <string name="Value">Hyperwave staging node 289: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX295">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_290</string>
+              <string name="Value">Hyperwave staging node 290: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX296">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_291</string>
+              <string name="Value">Hyperwave staging node 291: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX297">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_292</string>
+              <string name="Value">Hyperwave staging node 292: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX298">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_293</string>
+              <string name="Value">Hyperwave staging node 293: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX299">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_294</string>
+              <string name="Value">Hyperwave staging node 294: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX300">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_295</string>
+              <string name="Value">Hyperwave staging node 295: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX301">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_296</string>
+              <string name="Value">Hyperwave staging node 296: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX302">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_297</string>
+              <string name="Value">Hyperwave staging node 297: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX303">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_298</string>
+              <string name="Value">Hyperwave staging node 298: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX304">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_299</string>
+              <string name="Value">Hyperwave staging node 299: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX305">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_300</string>
+              <string name="Value">Hyperwave staging node 300: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX306">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_301</string>
+              <string name="Value">Hyperwave staging node 301: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX307">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_302</string>
+              <string name="Value">Hyperwave staging node 302: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX308">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_303</string>
+              <string name="Value">Hyperwave staging node 303: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX309">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_304</string>
+              <string name="Value">Hyperwave staging node 304: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX310">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_305</string>
+              <string name="Value">Hyperwave staging node 305: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX311">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_306</string>
+              <string name="Value">Hyperwave staging node 306: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX312">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_307</string>
+              <string name="Value">Hyperwave staging node 307: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX313">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_308</string>
+              <string name="Value">Hyperwave staging node 308: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX314">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_309</string>
+              <string name="Value">Hyperwave staging node 309: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX315">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_310</string>
+              <string name="Value">Hyperwave staging node 310: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX316">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_311</string>
+              <string name="Value">Hyperwave staging node 311: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX317">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_312</string>
+              <string name="Value">Hyperwave staging node 312: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX318">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_313</string>
+              <string name="Value">Hyperwave staging node 313: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX319">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_314</string>
+              <string name="Value">Hyperwave staging node 314: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX320">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_315</string>
+              <string name="Value">Hyperwave staging node 315: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX321">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_316</string>
+              <string name="Value">Hyperwave staging node 316: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX322">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_317</string>
+              <string name="Value">Hyperwave staging node 317: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX323">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_318</string>
+              <string name="Value">Hyperwave staging node 318: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX324">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_319</string>
+              <string name="Value">Hyperwave staging node 319: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          <Item class="StringValue" referent="RBX325">
+            <Properties>
+              <bool name="Archivable">true</bool>
+              <string name="Name">Node_320</string>
+              <string name="Value">Hyperwave staging node 320: replace with mesh/part/objective prop in Studio</string>
+            </Properties>
+          </Item>
+          </Properties>
+        </Item>
+        </Properties>
+      </Item>
+      </Properties>
+    </Item>
+    <Item class="ReplicatedStorage" referent="RBX326">
+      <Properties>
+        <bool name="Archivable">true</bool>
+        <string name="Name">ReplicatedStorage</string>
+      <Item class="Folder" referent="RBX327">
+        <Properties>
+          <bool name="Archivable">true</bool>
+          <string name="Name">Modules</string>
+        <Item class="ModuleScript" referent="RBX328">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">Config</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+-- Centralized tuning values, IDs, and permissions.
+
+local Config = {
+	Game = {
+		Title = "Human vs Alien — PlanetX Showdown",
+		RoundDuration = 900,
+		IntermissionDuration = 30,
+		MinPlayers = 2,
+	},
+
+	DataStore = {
+		Name = "PlanetXShowdown_v1",
+		Scope = "global",
+	},
+
+	Currency = {
+		KillReward = 25,
+		FuelDeliveryReward = 40,
+		ObjectiveReward = 100,
+		SurvivalReward = 20,
+		HumanRewardMultiplier = 1.15,
+		AlienRewardMultiplier = 1.0,
+	},
+
+	DeathRay = {
+		FuelPerCharge = 10,
+		RequiredCharge = 100,
+		ChargePerSecond = 1,
+		DisableDurationFromEMP = 20,
+		InstantActivationGamePassId = 0, -- TODO: insert GamePass ID
+	},
+
+	Research = {
+		RequiredOperators = 2,
+		SpeedBoostFromPresident = 1.25,
+		BaseResearchRate = 1,
+	},
+
+	Leaders = {
+		HumanLeaderGamePassId = 0, -- TODO: President pass
+		AlienLeaderGamePassId = 0, -- TODO: Overmind pass
+		LeaderVoteDuration = 15,
+	},
+
+	Admin = {
+		Enabled = true,
+		DebugLogging = true,
+		UserIds = {12345678}, -- TODO: replace
+	},
+
+	RateLimits = {
+		Ability = 0.15,
+		ShopPurchase = 0.2,
+		RoleSelect = 0.25,
+		AdminCommand = 0.1,
+	},
+
+	Assets = {
+		Animations = {
+			Idle = 0,
+			Run = 0,
+			Attack = 0,
+			Ability = 0,
+		},
+		Audio = {
+			Lobby = 0,
+			Combat = 0,
+			DeathRayCharge = 0,
+			EndingPeace = 0,
+		},
+	},
+
+	External = {
+		NexusDynamicsAssetId = 0, -- TODO: insert official model/package asset ID
+	},
+}
+
+return Config
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX329">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">README_Module</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+--[[
+README MODULE - Human vs Alien — PlanetX Showdown
+
+1) GamePass IDs
+   - Set these in ReplicatedStorage/Modules/Config.lua:
+     * DeathRay.InstantActivationGamePassId
+     * Leaders.HumanLeaderGamePassId
+     * Leaders.AlienLeaderGamePassId
+
+2) DataStore
+   - DataStore keys are configured by Config.DataStore.Name and Scope.
+   - Saved fields: coins, wins, timesLeader, peaceEndingUnlocked.
+
+3) Endings
+   - Alien Vaporization: death ray reaches required charge and fires.
+   - Human Military Victory: aliens eliminated OR death ray destroyed/disabled at end.
+   - Secret Peace: timer expires, death ray not fired, both teams still have enough players,
+     and optional leader agreement flag is true.
+
+4) Balance tuning
+   - Edit Config.Currency and Config.Research for economy and pacing.
+   - Humans are intentionally slightly advantaged via multiplier and research scaling.
+
+5) Lobby + map
+   - A playable lobby and both faction bases are built automatically by MapBuilderService.
+   - Replace runtime-generated geometry with handcrafted maps whenever ready.
+
+6) Nexus Dynamics by dev equip
+   - Insert official package/model under ReplicatedStorage and name it "NexusDynamics".
+   - Fill Config.External.NexusDynamicsAssetId.
+   - Extend NexusDynamicsService to call package APIs.
+
+7) Asset replacement
+   - Replace animation/audio placeholder IDs in Config.Assets.
+
+8) Assembly
+   - Place scripts in corresponding Roblox services matching folder names.
+   - Ensure remotes in ReplicatedStorage/Remotes exist with matching names.
+   - Start with ServerScriptService/Main.server.lua enabled.
+]]
+
+return true
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX330">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">RoleDefinitions</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+-- Role table consumed by server-side role system.
+
+export type RoleData = {
+	Team: "Humans" | "Aliens",
+	Passive: string,
+	Active: string,
+	Cooldown: number,
+	StarterLoadout: {string},
+}
+
+local Roles: {[string]: RoleData} = {
+	RocketScientist = {
+		Team = "Humans",
+		Passive = "Research speed +15% near consoles",
+		Active = "Deploy Micro-Thruster Trap",
+		Cooldown = 25,
+		StarterLoadout = {"Pistol", "Wrench", "Blueprint"},
+	},
+	Engineer = {
+		Team = "Humans",
+		Passive = "Build speed +20%",
+		Active = "Repair Burst",
+		Cooldown = 20,
+		StarterLoadout = {"SMG", "RepairTool", "BarricadeKit"},
+	},
+	Janitor = {
+		Team = "Humans",
+		Passive = "Cleans hazards for bonus coins",
+		Active = "Foam Slow Field",
+		Cooldown = 30,
+		StarterLoadout = {"Shotgun", "FoamSprayer"},
+	},
+	Security = {
+		Team = "Humans",
+		Passive = "+15 max health",
+		Active = "Tactical Shield",
+		Cooldown = 35,
+		StarterLoadout = {"Rifle", "Flashbang"},
+	},
+	Pilot = {
+		Team = "Humans",
+		Passive = "Movement speed +8%",
+		Active = "Recon Drone Ping",
+		Cooldown = 28,
+		StarterLoadout = {"Carbine", "DroneController"},
+	},
+	Commander = {
+		Team = "Aliens",
+		Passive = "Nearby allies gain damage buff",
+		Active = "Battle Roar",
+		Cooldown = 32,
+		StarterLoadout = {"PlasmaRifle", "Claw"},
+	},
+	Warrior = {
+		Team = "Aliens",
+		Passive = "Melee lifesteal",
+		Active = "Lunge",
+		Cooldown = 18,
+		StarterLoadout = {"Claw", "Spines"},
+	},
+	Scout = {
+		Team = "Aliens",
+		Passive = "Stealth while crouched",
+		Active = "Dash Cloak",
+		Cooldown = 24,
+		StarterLoadout = {"Needler", "Scanner"},
+	},
+	BioEngineer = {
+		Team = "Aliens",
+		Passive = "Fuel carry penalty reduced",
+		Active = "Mutagen Field",
+		Cooldown = 27,
+		StarterLoadout = {"AcidSprayer", "Injector"},
+	},
+	Tech = {
+		Team = "Aliens",
+		Passive = "Death ray charge +10% efficiency",
+		Active = "Overclock Node",
+		Cooldown = 26,
+		StarterLoadout = {"PulsePistol", "HackingProbe"},
+	},
+}
+
+return Roles
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX331">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">Security</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local Config = require(script.Parent.Config)
+
+local Security = {}
+local lastCall: {[Player]: {[string]: number}} = {}
+
+function Security.IsAdmin(player: Player): boolean
+	for _, id in ipairs(Config.Admin.UserIds) do
+		if id == player.UserId then
+			return true
+		end
+	end
+	return false
+end
+
+function Security.RateLimit(player: Player, key: string, interval: number?): boolean
+	local now = os.clock()
+	lastCall[player] = lastCall[player] or {}
+	local previous = lastCall[player][key] or 0
+	local required = interval or Config.RateLimits[key] or 0.2
+	if now - previous < required then
+		return false
+	end
+	lastCall[player][key] = now
+	return true
+end
+
+function Security.ValidateTeam(player: Player, teamName: string): boolean
+	return player.Team ~= nil and player.Team.Name == teamName
+end
+
+Players.PlayerRemoving:Connect(function(player)
+	lastCall[player] = nil
+end)
+
+return Security
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX332">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">UI</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+-- Shared UI constants for retrowave styling and labels.
+
+local UI = {
+	Colors = {
+		NeonPink = Color3.fromRGB(255, 0, 140),
+		NeonCyan = Color3.fromRGB(0, 255, 255),
+		DeepSpace = Color3.fromRGB(10, 6, 24),
+	},
+	Labels = {
+		Coin = "COINS",
+		Role = "ROLE",
+		Leader = "LEADER",
+		Objectives = "OBJECTIVES",
+		DeathRay = "DEATH RAY",
+	},
+}
+
+return UI
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX333">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">Weapons</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+-- Shared weapon stats module. Server must own hit validation.
+
+local Weapons = {
+	Pistol = {Damage = 15, FireRate = 0.35},
+	Rifle = {Damage = 22, FireRate = 0.22},
+	PlasmaRifle = {Damage = 20, FireRate = 0.2},
+}
+
+return Weapons
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        </Properties>
+      </Item>
+      <Item class="Folder" referent="RBX334">
+        <Properties>
+          <bool name="Archivable">true</bool>
+          <string name="Name">Docs</string>
+        <Item class="StringValue" referent="RBX335">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">RepositoryREADME</string>
+            <string name="Value"># HumanVsAlien_PlanetX_Showdown.rblx (Source Layout)
+
+This repository provides a full place **source hierarchy** because binary `.rblx/.rbxl` output is not generated in this environment.
+
+## Do you need to add a lobby?
+No extra files are required now: a playable lobby + Earth base + PlanetX base are auto-generated by `MapBuilderService` when the server starts.
+
+## Folder mapping to Roblox services
+- `ServerScriptService/*` -&gt; Server game systems (authoritative logic)
+- `ReplicatedStorage/Modules/*` -&gt; Shared config and definition modules
+- `ReplicatedStorage/Remotes` -&gt; Remote events (auto-created by `RemotesService`)
+- `StarterPlayer/StarterPlayerScripts/*` -&gt; HUD and animation controllers
+- `StarterGui/RetrowaveHUD/*` -&gt; Retrowave UI bootstrap
+- `Workspace/MapPlaceholders/*` -&gt; Optional manual map notes if you want custom geometry
+
+## Implemented systems
+- Round loop and endings (Alien Vaporization, Human Military, Secret Peace)
+- Team and role framework with passive/active/cooldowns and loadouts
+- Death Ray objective with EMP disable and instant activation GamePass validation
+- Persistent economy (coins, wins, times leader, peace unlock)
+- Shop purchases validated on server
+- Leadership framework for President/Overmind + pass checks
+- Admin command pipeline with allow-list UserIds and rate limiting
+- Security layer for rate-limits and trust boundaries
+- Runtime map generation for lobby, spawns, fuel nodes, objective structures
+- Nexus Dynamics integration bridge (`NexusDynamicsService`) with placeholder asset ID
+
+## Nexus Dynamics (dev equip)
+This repo now includes a bridge service. To fully enable the package:
+1. Insert the official Nexus Dynamics model/package into `ReplicatedStorage`.
+2. Rename it to `NexusDynamics`.
+3. Set `Config.External.NexusDynamicsAssetId`.
+4. If the package exports APIs, bind them inside `NexusDynamicsService`.
+
+## Assembly steps in Roblox Studio
+1. Create a new place named `HumanVsAlien_PlanetX_Showdown`.
+2. Recreate folder/file structure in corresponding Roblox services.
+3. Paste script contents from this source layout.
+4. Replace all placeholder IDs in `Config.lua`.
+5. Configure DataStore name/scope and admin UserIds.
+6. Press Play to auto-build map and start the round flow.
+
+## Balance tuning
+See `ReplicatedStorage/Modules/Config.lua` for central balance controls.
+Humans are slightly stronger through reward multiplier and research scaling.
+</string>
+          </Properties>
+        </Item>
+        </Properties>
+      </Item>
+      </Properties>
+    </Item>
+    <Item class="ServerScriptService" referent="RBX336">
+      <Properties>
+        <bool name="Archivable">true</bool>
+        <string name="Name">ServerScriptService</string>
+      <Item class="Script" referent="RBX337">
+        <Properties>
+          <bool name="Archivable">true</bool>
+          <string name="Name">Main</string>
+          <ProtectedString name="Source"><![CDATA[--!strict
+-- Entry point for HumanVsAlien_PlanetX_Showdown
+
+local Players = game:GetService("Players")
+local Teams = game:GetService("Teams")
+
+local RemotesService = require(script.Services.RemotesService)
+local TeamsService = require(script.Services.TeamsService)
+local Data = require(script.Services.DataStoreService)
+local GameState = require(script.Services.GameStateService)
+local MapBuilder = require(script.Services.MapBuilderService)
+local NexusDynamics = require(script.Services.NexusDynamicsService)
+
+RemotesService.Init()
+TeamsService.Init()
+MapBuilder.Build()
+NexusDynamics.Init()
+
+local assignFlip = false
+
+Players.PlayerAdded:Connect(function(player)
+	local profile = Data.Load(player)
+	local leaderstats = Instance.new("Folder")
+	leaderstats.Name = "leaderstats"
+	leaderstats.Parent = player
+
+	local coins = Instance.new("IntValue")
+	coins.Name = "Coins"
+	coins.Value = profile.coins
+	coins.Parent = leaderstats
+
+	player.Team = Teams:FindFirstChild("Lobby")
+	task.delay(8, function()
+		if not player.Parent then return end
+		assignFlip = not assignFlip
+		player.Team = assignFlip and Teams:FindFirstChild("Humans") or Teams:FindFirstChild("Aliens")
+		player:LoadCharacter()
+	end)
+end)
+
+task.wait(5)
+GameState.StartRound()
+]]></ProtectedString>
+          <bool name="Disabled">false</bool>
+        </Properties>
+      </Item>
+      <Item class="Folder" referent="RBX338">
+        <Properties>
+          <bool name="Archivable">true</bool>
+          <string name="Name">Services</string>
+        <Item class="ModuleScript" referent="RBX339">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">AbilityService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Security = require(ReplicatedStorage.Modules.Security)
+local Roles = require(ReplicatedStorage.Modules.RoleDefinitions)
+local RolesService = require(script.Parent.RolesService)
+
+local remotes = ReplicatedStorage:WaitForChild("Remotes")
+local abilityRemote = remotes:WaitForChild("AbilityRequest") :: RemoteEvent
+
+local AbilityService = {}
+local lastAbilityUse: {[Player]: number} = {}
+
+abilityRemote.OnServerEvent:Connect(function(player, payload)
+	if type(payload) ~= "table" then return end
+	if not Security.RateLimit(player, "Ability") then return end
+	local roleName = RolesService.GetRole(player)
+	if not roleName then return end
+	local roleData = Roles[roleName]
+	if not roleData then return end
+	local now = os.clock()
+	if now - (lastAbilityUse[player] or 0) < roleData.Cooldown then
+		return
+	end
+	lastAbilityUse[player] = now
+	abilityRemote:FireClient(player, "AbilityConfirmed", roleName, payload)
+end)
+
+return AbilityService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX340">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">AdminService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Config = require(ReplicatedStorage.Modules.Config)
+local Security = require(ReplicatedStorage.Modules.Security)
+local GameState = require(script.Parent.GameStateService)
+local DeathRay = require(script.Parent.DeathRayService)
+local Data = require(script.Parent.DataStoreService)
+
+local remotes = ReplicatedStorage:WaitForChild("Remotes")
+local adminRemote = remotes:WaitForChild("AdminCommand") :: RemoteEvent
+
+local AdminService = {}
+
+local function log(...)
+	if Config.Admin.DebugLogging then
+		print("[AdminService]", ...)
+	end
+end
+
+adminRemote.OnServerEvent:Connect(function(player, command, arg1, arg2)
+	if not Config.Admin.Enabled then return end
+	if not Security.IsAdmin(player) then return end
+	if not Security.RateLimit(player, "AdminCommand") then return end
+	if command == "start_round" then
+		GameState.StartRound()
+	elseif command == "end_round" then
+		GameState.EndRound("AdminEnded")
+	elseif command == "give_coins" and typeof(arg1) == "Instance" and arg1:IsA("Player") and type(arg2) == "number" then
+		Data.Update(arg1, "coins", arg2)
+	elseif command == "fill_death_ray" then
+		DeathRay.Charge = Config.DeathRay.RequiredCharge
+	elseif command == "spawn_fuel" then
+		log("Spawn fuel requested by", player.Name)
+	end
+	log("Executed", command, player.Name)
+end)
+
+return AdminService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX341">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">DataStoreService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local DataStoreService = game:GetService("DataStoreService")
+local Players = game:GetService("Players")
+
+local Config = require(game.ReplicatedStorage.Modules.Config)
+
+local store = DataStoreService:GetDataStore(Config.DataStore.Name, Config.DataStore.Scope)
+
+local Data = {}
+local cache: {[Player]: {[string]: any}} = {}
+
+local defaults = {
+	coins = 0,
+	wins = 0,
+	timesLeader = 0,
+	peaceEndingUnlocked = false,
+}
+
+function Data.Load(player: Player)
+	local key = tostring(player.UserId)
+	local ok, result = pcall(function()
+		return store:GetAsync(key)
+	end)
+	local profile = table.clone(defaults)
+	if ok and type(result) == "table" then
+		for k, v in pairs(result) do
+			profile[k] = v
+		end
+	end
+	cache[player] = profile
+	return profile
+end
+
+function Data.Get(player: Player)
+	return cache[player]
+end
+
+function Data.Update(player: Player, field: string, delta: number)
+	local profile = cache[player]
+	if not profile then return end
+	profile[field] = (profile[field] or 0) + delta
+end
+
+function Data.Set(player: Player, field: string, value: any)
+	local profile = cache[player]
+	if not profile then return end
+	profile[field] = value
+end
+
+function Data.Save(player: Player)
+	local profile = cache[player]
+	if not profile then return end
+	local key = tostring(player.UserId)
+	pcall(function()
+		store:SetAsync(key, profile)
+	end)
+end
+
+Players.PlayerRemoving:Connect(function(player)
+	Data.Save(player)
+	cache[player] = nil
+end)
+
+game:BindToClose(function()
+	for _, player in ipairs(Players:GetPlayers()) do
+		Data.Save(player)
+	end
+end)
+
+return Data
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX342">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">DeathRayService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local MarketplaceService = game:GetService("MarketplaceService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Config = require(ReplicatedStorage.Modules.Config)
+local Security = require(ReplicatedStorage.Modules.Security)
+
+local remotes = ReplicatedStorage:WaitForChild("Remotes")
+local endingEvent = remotes:WaitForChild("EndingEvent") :: RemoteEvent
+
+local DeathRayService = {}
+DeathRayService.Charge = 0
+DeathRayService.DisabledUntil = 0
+DeathRayService.Fired = false
+
+function DeathRayService.AddFuel(player: Player, amount: number)
+	if not Security.ValidateTeam(player, "Aliens") then return end
+	DeathRayService.Charge = math.clamp(DeathRayService.Charge + amount, 0, Config.DeathRay.RequiredCharge)
+end
+
+function DeathRayService.DisableByEMP(duration: number)
+	DeathRayService.DisabledUntil = os.clock() + duration
+end
+
+function DeathRayService.Tick(dt: number)
+	if DeathRayService.Fired then return end
+	if os.clock() < DeathRayService.DisabledUntil then return end
+	DeathRayService.Charge = math.clamp(DeathRayService.Charge + (Config.DeathRay.ChargePerSecond * dt), 0, Config.DeathRay.RequiredCharge)
+	if DeathRayService.Charge >= Config.DeathRay.RequiredCharge then
+		DeathRayService.Fire("Standard")
+	end
+end
+
+function DeathRayService.TryInstantActivation(player: Player): boolean
+	if not Security.ValidateTeam(player, "Aliens") then return false end
+	local ok, owns = pcall(function()
+		return MarketplaceService:UserOwnsGamePassAsync(player.UserId, Config.DeathRay.InstantActivationGamePassId)
+	end)
+	if ok and owns then
+		DeathRayService.Charge = Config.DeathRay.RequiredCharge
+		DeathRayService.Fire("Instant")
+		return true
+	end
+	return false
+end
+
+function DeathRayService.Fire(mode: string)
+	if DeathRayService.Fired then return end
+	DeathRayService.Fired = true
+	endingEvent:FireAllClients("AlienVaporization", {mode = mode})
+end
+
+return DeathRayService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX343">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">GameStateService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Config = require(ReplicatedStorage.Modules.Config)
+local Data = require(script.Parent.DataStoreService)
+local DeathRay = require(script.Parent.DeathRayService)
+local LeaderService = require(script.Parent.LeaderService)
+
+local remotes = ReplicatedStorage:WaitForChild("Remotes")
+local hudUpdate = remotes:WaitForChild("HUDUpdate") :: RemoteEvent
+local endingEvent = remotes:WaitForChild("EndingEvent") :: RemoteEvent
+
+local GameState = {}
+GameState.RoundActive = false
+GameState.TimeLeft = Config.Game.RoundDuration
+GameState.LeaderAgreementForPeace = false
+
+local function aliveCount(teamName: string): number
+	local count = 0
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player.Team and player.Team.Name == teamName then
+			count += 1
+		end
+	end
+	return count
+end
+
+function GameState.StartRound()
+	GameState.RoundActive = true
+	GameState.TimeLeft = Config.Game.RoundDuration
+	GameState.LeaderAgreementForPeace = false
+	DeathRay.Fired = false
+	DeathRay.Charge = 0
+	LeaderService.AssignLeaders()
+end
+
+function GameState.EndRound(reason: string)
+	GameState.RoundActive = false
+	endingEvent:FireAllClients(reason)
+	if reason == "SecretPeace" then
+		for _, player in ipairs(Players:GetPlayers()) do
+			Data.Update(player, "coins", 300)
+			Data.Set(player, "peaceEndingUnlocked", true)
+		end
+	end
+end
+
+function GameState.EvaluateWinConditions()
+	if DeathRay.Fired then
+		GameState.EndRound("AlienVaporization")
+		return
+	end
+	if aliveCount("Humans") == 0 then
+		GameState.EndRound("AlienVictory")
+		return
+	end
+	if aliveCount("Aliens") == 0 then
+		GameState.EndRound("HumanMilitaryVictory")
+		return
+	end
+	if GameState.TimeLeft <= 0 then
+		if aliveCount("Humans") >= 1 and aliveCount("Aliens") >= 1 and GameState.LeaderAgreementForPeace then
+			GameState.EndRound("SecretPeace")
+		else
+			GameState.EndRound("HumanMilitaryVictory")
+		end
+	end
+end
+
+RunService.Heartbeat:Connect(function(dt)
+	if not GameState.RoundActive then return end
+	GameState.TimeLeft -= dt
+	DeathRay.Tick(dt)
+	GameState.EvaluateWinConditions()
+	hudUpdate:FireAllClients({
+		timeLeft = GameState.TimeLeft,
+		deathRayCharge = DeathRay.Charge,
+		leaders = LeaderService.Current,
+	})
+end)
+
+return GameState
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX344">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">LeaderService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local MarketplaceService = game:GetService("MarketplaceService")
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Config = require(ReplicatedStorage.Modules.Config)
+local Data = require(script.Parent.DataStoreService)
+
+local LeaderService = {}
+LeaderService.Current = {
+	Humans = nil :: Player?,
+	Aliens = nil :: Player?,
+}
+
+local function ownsPass(player: Player, passId: number): boolean
+	if passId == 0 then return false end
+	local ok, owns = pcall(function()
+		return MarketplaceService:UserOwnsGamePassAsync(player.UserId, passId)
+	end)
+	return ok and owns
+end
+
+local function pickLeader(teamName: string, passId: number): Player?
+	local candidates = {}
+	for _, player in ipairs(Players:GetPlayers()) do
+		if player.Team and player.Team.Name == teamName and ownsPass(player, passId) then
+			table.insert(candidates, player)
+		end
+	end
+	return candidates[1]
+end
+
+function LeaderService.AssignLeaders()
+	LeaderService.Current.Humans = pickLeader("Humans", Config.Leaders.HumanLeaderGamePassId)
+	LeaderService.Current.Aliens = pickLeader("Aliens", Config.Leaders.AlienLeaderGamePassId)
+	for _, leader in pairs(LeaderService.Current) do
+		if leader then
+			Data.Update(leader, "timesLeader", 1)
+		end
+	end
+end
+
+return LeaderService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX345">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">MapBuilderService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+-- Builds playable placeholder geometry and spawns directly in Studio Play mode.
+
+local Workspace = game:GetService("Workspace")
+
+local MapBuilderService = {}
+
+local function createPart(name: string, size: Vector3, cframe: CFrame, color: Color3, parent: Instance): Part
+	local part = Instance.new("Part")
+	part.Name = name
+	part.Size = size
+	part.CFrame = cframe
+	part.Color = color
+	part.Anchored = true
+	part.TopSurface = Enum.SurfaceType.Smooth
+	part.BottomSurface = Enum.SurfaceType.Smooth
+	part.Parent = parent
+	return part
+end
+
+local function createSpawn(name: string, cframe: CFrame, color: BrickColor, teamColor: BrickColor, parent: Instance): SpawnLocation
+	local spawn = Instance.new("SpawnLocation")
+	spawn.Name = name
+	spawn.CFrame = cframe
+	spawn.Size = Vector3.new(8, 1, 8)
+	spawn.Anchored = true
+	spawn.Neutral = false
+	spawn.BrickColor = color
+	spawn.TeamColor = teamColor
+	spawn.Parent = parent
+	return spawn
+end
+
+function MapBuilderService.Build()
+	if Workspace:FindFirstChild("PlanetXMap") then
+		return
+	end
+
+	local root = Instance.new("Folder")
+	root.Name = "PlanetXMap"
+	root.Parent = Workspace
+
+	-- Lobby safe zone
+	local lobby = Instance.new("Model")
+	lobby.Name = "Lobby"
+	lobby.Parent = root
+	createPart("LobbyFloor", Vector3.new(120, 2, 120), CFrame.new(0, 0, 0), Color3.fromRGB(45, 25, 65), lobby)
+	createPart("LobbyBarrierNorth", Vector3.new(120, 12, 2), CFrame.new(0, 6, -60), Color3.fromRGB(130, 50, 200), lobby)
+	createPart("LobbyBarrierSouth", Vector3.new(120, 12, 2), CFrame.new(0, 6, 60), Color3.fromRGB(130, 50, 200), lobby)
+	createPart("RoleKiosk", Vector3.new(18, 8, 8), CFrame.new(-25, 4, 0), Color3.fromRGB(0, 255, 255), lobby)
+	createPart("ShopKiosk", Vector3.new(18, 8, 8), CFrame.new(25, 4, 0), Color3.fromRGB(255, 0, 140), lobby)
+	createSpawn("LobbySpawn", CFrame.new(0, 3, 0), BrickColor.new("Royal purple"), BrickColor.new("Medium stone grey"), lobby)
+
+	-- Earth human base
+	local earth = Instance.new("Model")
+	earth.Name = "EarthBase"
+	earth.Parent = root
+	createPart("EarthFloor", Vector3.new(160, 2, 110), CFrame.new(-220, 0, 0), Color3.fromRGB(55, 100, 135), earth)
+	createPart("ResearchLab", Vector3.new(30, 20, 26), CFrame.new(-245, 10, -20), Color3.fromRGB(220, 235, 255), earth)
+	createPart("RocketPad", Vector3.new(36, 2, 36), CFrame.new(-185, 1, 24), Color3.fromRGB(150, 150, 150), earth)
+	createPart("EMPConsoleCluster", Vector3.new(20, 6, 12), CFrame.new(-250, 3, 25), Color3.fromRGB(0, 255, 255), earth)
+	createSpawn("HumanSpawn", CFrame.new(-220, 3, 0), BrickColor.new("Bright blue"), BrickColor.new("Bright blue"), earth)
+
+	-- PlanetX alien base
+	local planetX = Instance.new("Model")
+	planetX.Name = "PlanetX"
+	planetX.Parent = root
+	createPart("PlanetXFloor", Vector3.new(170, 2, 120), CFrame.new(230, 0, 0), Color3.fromRGB(70, 20, 20), planetX)
+	createPart("DeathRayStructure", Vector3.new(36, 28, 36), CFrame.new(255, 14, -5), Color3.fromRGB(255, 65, 65), planetX)
+	createPart("AlienArmory", Vector3.new(28, 14, 24), CFrame.new(195, 7, 22), Color3.fromRGB(120, 40, 60), planetX)
+	createSpawn("AlienSpawn", CFrame.new(230, 3, 0), BrickColor.new("Bright red"), BrickColor.new("Bright red"), planetX)
+
+	-- Fuel nodes for both teams/objectives
+	local fuel = Instance.new("Folder")
+	fuel.Name = "FuelNodes"
+	fuel.Parent = root
+	for index, x in ipairs({-190, -160, 170, 205}) do
+		createPart(string.format("FuelNode_%d", index), Vector3.new(4, 4, 4), CFrame.new(x, 3, 45), Color3.fromRGB(255, 225, 0), fuel)
+	end
+end
+
+return MapBuilderService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX346">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">NexusDynamicsService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+-- Integration bridge for external Nexus Dynamics framework by dev equip.
+-- This keeps the place runnable even before the package is inserted.
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Config = require(ReplicatedStorage.Modules.Config)
+
+local NexusDynamicsService = {}
+NexusDynamicsService.IsLoaded = false
+
+function NexusDynamicsService.Init()
+	local packageContainer = ReplicatedStorage:FindFirstChild("NexusDynamics")
+	if packageContainer then
+		NexusDynamicsService.IsLoaded = true
+		print("[NexusDynamicsService] Nexus Dynamics detected and linked.")
+	else
+		warn("[NexusDynamicsService] Nexus Dynamics package not found. Insert package/model then rename to ReplicatedStorage/NexusDynamics.")
+	end
+end
+
+function NexusDynamicsService.GetExpectedAssetId(): number
+	return Config.External.NexusDynamicsAssetId
+end
+
+return NexusDynamicsService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX347">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">RemotesService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local RemotesService = {}
+
+function RemotesService.Init()
+	local remotesFolder = ReplicatedStorage:FindFirstChild("Remotes")
+	if not remotesFolder then
+		remotesFolder = Instance.new("Folder")
+		remotesFolder.Name = "Remotes"
+		remotesFolder.Parent = ReplicatedStorage
+	end
+
+	for _, remoteName in ipairs({
+		"RoleSelected",
+		"AbilityRequest",
+		"ShopPurchase",
+		"ObjectiveUpdate",
+		"LeaderCommand",
+		"AdminCommand",
+		"HUDUpdate",
+		"EndingEvent",
+	}) do
+		if not remotesFolder:FindFirstChild(remoteName) then
+			local remote = Instance.new("RemoteEvent")
+			remote.Name = remoteName
+			remote.Parent = remotesFolder
+		end
+	end
+end
+
+return RemotesService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX348">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">ResearchService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Config = require(ReplicatedStorage.Modules.Config)
+local Security = require(ReplicatedStorage.Modules.Security)
+local DeathRay = require(script.Parent.DeathRayService)
+
+local remotes = ReplicatedStorage:WaitForChild("Remotes")
+local objectiveUpdate = remotes:WaitForChild("ObjectiveUpdate") :: RemoteEvent
+
+local ResearchService = {}
+ResearchService.Progress = 0
+ResearchService.EMPReady = false
+
+function ResearchService.Contribute(player: Player, stationId: string)
+	if not Security.ValidateTeam(player, "Humans") then return end
+	if stationId ~= "RocketConsole" then return end
+	ResearchService.Progress += Config.Research.BaseResearchRate
+	if ResearchService.Progress >= 100 then
+		ResearchService.EMPReady = true
+	end
+	objectiveUpdate:FireAllClients("Research", ResearchService.Progress)
+end
+
+function ResearchService.TriggerEMP(player: Player)
+	if not Security.ValidateTeam(player, "Humans") then return false end
+	if not ResearchService.EMPReady then return false end
+	ResearchService.EMPReady = false
+	ResearchService.Progress = 0
+	DeathRay.DisableByEMP(Config.DeathRay.DisableDurationFromEMP)
+	objectiveUpdate:FireAllClients("EMP", "Triggered")
+	return true
+end
+
+return ResearchService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX349">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">RolesService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local RoleDefinitions = require(ReplicatedStorage.Modules.RoleDefinitions)
+local Security = require(ReplicatedStorage.Modules.Security)
+
+local roleSelected = Instance.new("RemoteEvent")
+roleSelected.Name = "RoleSelected"
+roleSelected.Parent = ReplicatedStorage.Remotes
+
+local RolesService = {}
+local playerRoles: {[Player]: string} = {}
+
+function RolesService.AssignRole(player: Player, roleName: string): boolean
+	local role = RoleDefinitions[roleName]
+	if not role then return false end
+	if not Security.ValidateTeam(player, role.Team) then return false end
+	playerRoles[player] = roleName
+	return true
+end
+
+function RolesService.GetRole(player: Player): string?
+	return playerRoles[player]
+end
+
+roleSelected.OnServerEvent:Connect(function(player, roleName)
+	if type(roleName) ~= "string" then return end
+	if not Security.RateLimit(player, "RoleSelect") then return end
+	if RolesService.AssignRole(player, roleName) then
+		roleSelected:FireClient(player, roleName, RoleDefinitions[roleName])
+	end
+end)
+
+return RolesService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX350">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">ShopService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Security = require(ReplicatedStorage.Modules.Security)
+local Data = require(script.Parent.DataStoreService)
+
+local remotes = ReplicatedStorage:WaitForChild("Remotes")
+local purchaseRemote = remotes:WaitForChild("ShopPurchase") :: RemoteEvent
+
+local catalog = {
+	Weapons = {
+		PulseRifle = 300,
+		RailSMG = 250,
+	},
+	Buffs = {
+		FastReload = 200,
+		ExtraArmor = 220,
+	},
+	Cosmetics = {
+		NeonVisor = 150,
+		RetroTrail = 180,
+	},
+}
+
+local ShopService = {}
+
+function ShopService.Purchase(player: Player, category: string, itemName: string): boolean
+	local price = catalog[category] and catalog[category][itemName]
+	if type(price) ~= "number" then return false end
+	local profile = Data.Get(player)
+	if not profile then return false end
+	if profile.coins < price then return false end
+	Data.Update(player, "coins", -price)
+	return true
+end
+
+purchaseRemote.OnServerEvent:Connect(function(player, category, itemName)
+	if type(category) ~= "string" or type(itemName) ~= "string" then return end
+	if not Security.RateLimit(player, "ShopPurchase") then return end
+	local success = ShopService.Purchase(player, category, itemName)
+	purchaseRemote:FireClient(player, success, category, itemName)
+end)
+
+return ShopService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="ModuleScript" referent="RBX351">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">TeamsService</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local Teams = game:GetService("Teams")
+
+local TeamsService = {}
+
+function TeamsService.Init()
+	for _, teamName in ipairs({"Humans", "Aliens", "Lobby"}) do
+		if not Teams:FindFirstChild(teamName) then
+			local team = Instance.new("Team")
+			team.Name = teamName
+			team.AutoAssignable = (teamName == "Lobby")
+			if teamName == "Humans" then
+				team.TeamColor = BrickColor.new("Bright blue")
+			elseif teamName == "Aliens" then
+				team.TeamColor = BrickColor.new("Bright red")
+			else
+				team.TeamColor = BrickColor.new("Medium stone grey")
+			end
+			team.Parent = Teams
+		end
+	end
+end
+
+return TeamsService
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        </Properties>
+      </Item>
+      </Properties>
+    </Item>
+    <Item class="StarterGui" referent="RBX352">
+      <Properties>
+        <bool name="Archivable">true</bool>
+        <string name="Name">StarterGui</string>
+      <Item class="ScreenGui" referent="RBX353">
+        <Properties>
+          <bool name="Archivable">true</bool>
+          <string name="Name">RetrowaveHUD</string>
+        <Item class="LocalScript" referent="RBX354">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">Init</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+
+local player = Players.LocalPlayer
+local gui = Instance.new("ScreenGui")
+gui.Name = "RetrowaveHUD"
+gui.ResetOnSpawn = false
+gui.Parent = player:WaitForChild("PlayerGui")
+
+local root = Instance.new("Frame")
+root.Name = "Root"
+root.Size = UDim2.fromScale(1, 1)
+root.BackgroundColor3 = Color3.fromRGB(10, 6, 24)
+root.BorderSizePixel = 0
+root.Parent = gui
+
+local grid = Instance.new("UIGradient")
+grid.Color = ColorSequence.new({
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 140)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 255, 255)),
+})
+grid.Rotation = 45
+grid.Parent = root
+
+local status = Instance.new("TextLabel")
+status.Name = "Status"
+status.Size = UDim2.fromOffset(500, 50)
+status.Position = UDim2.fromOffset(20, 20)
+status.BackgroundTransparency = 0.35
+status.BackgroundColor3 = Color3.fromRGB(30, 10, 50)
+status.TextColor3 = Color3.fromRGB(100, 255, 255)
+status.Font = Enum.Font.GothamBold
+status.TextScaled = true
+status.Text = "LOADING PLANETX SHOWDOWN..."
+status.Parent = root
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        </Properties>
+      </Item>
+      </Properties>
+    </Item>
+    <Item class="StarterPlayer" referent="RBX355">
+      <Properties>
+        <bool name="Archivable">true</bool>
+        <string name="Name">StarterPlayer</string>
+      <Item class="StarterPlayerScripts" referent="RBX356">
+        <Properties>
+          <bool name="Archivable">true</bool>
+          <string name="Name">StarterPlayerScripts</string>
+        <Item class="LocalScript" referent="RBX357">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">AnimationController</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+
+local Config = require(ReplicatedStorage.Modules.Config)
+
+local function loadAnimation(humanoid: Humanoid, animationId: number)
+	if animationId == 0 then return nil end
+	local anim = Instance.new("Animation")
+	anim.AnimationId = "rbxassetid://" .. animationId
+	return humanoid:LoadAnimation(anim)
+end
+
+Players.LocalPlayer.CharacterAdded:Connect(function(character)
+	local humanoid = character:WaitForChild("Humanoid") :: Humanoid
+	local idleTrack = loadAnimation(humanoid, Config.Assets.Animations.Idle)
+	if idleTrack then idleTrack:Play() end
+end)
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        <Item class="LocalScript" referent="RBX358">
+          <Properties>
+            <bool name="Archivable">true</bool>
+            <string name="Name">UIController</string>
+            <ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local TweenService = game:GetService("TweenService")
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local remotes = ReplicatedStorage:WaitForChild("Remotes")
+
+local hudUpdate = remotes:WaitForChild("HUDUpdate") :: RemoteEvent
+local endingEvent = remotes:WaitForChild("EndingEvent") :: RemoteEvent
+
+local screenGui = playerGui:WaitForChild("RetrowaveHUD") :: ScreenGui
+local root = screenGui:WaitForChild("Root") :: Frame
+local statusLabel = root:WaitForChild("Status") :: TextLabel
+
+local function animatePulse(label: TextLabel)
+	local tween = TweenService:Create(label, TweenInfo.new(0.4, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, 1, true), {
+		TextTransparency = 0.15,
+	})
+	tween:Play()
+end
+
+hudUpdate.OnClientEvent:Connect(function(payload)
+	statusLabel.Text = string.format("TIME %.0f | RAY %.0f%%", payload.timeLeft, payload.deathRayCharge)
+	animatePulse(statusLabel)
+end)
+
+endingEvent.OnClientEvent:Connect(function(endingName)
+	statusLabel.Text = "ENDING: " .. tostring(endingName)
+end)
+]]></ProtectedString>
+            <bool name="Disabled">false</bool>
+          </Properties>
+        </Item>
+        </Properties>
+      </Item>
+      </Properties>
+    </Item>
+    </Properties>
+  </Item>
+</roblox>
